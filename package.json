@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "dependencies": {
+    "alchemy-sdk": "^3.3.1",
+    "chai": "^5.1.1",
+    "dotenv-webpack": "^8.1.0",
+    "ethers": "^5.7.2",
+    "@openzeppelin/contracts": "^5.0.2",
+    "ipfs-http-client": "^60.0.1",
+    "node-fetch": "^3.3.2",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.6"
+  }
+}

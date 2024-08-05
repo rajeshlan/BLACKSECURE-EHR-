@@ -8,5 +8,17 @@ module.exports = {
       "os": require.resolve("os-browserify/browser")
     }
   },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'postcss-loader',
+        ],
+      },
+    ],
+  },
   // Other configurations...
 };

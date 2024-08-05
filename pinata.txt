@@ -12,3 +12,11 @@ JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiJhNm
 
 
 IPFS Hash created by storeInIPFS.cjs: QmU4DZ218fD1R47LeHpowc9oAvGmmZveDxJXGMcbj5SsTB
+
+
+date 03.08.24(latest)
+
+Deploying contracts with the account: 0x17B7d7618bA568E63F6875495c4e3360dE6DEEF8
+UserData deployed to: 0x4Ac091B77aFEdFaCFbC7fc9414731050878002fA
+IPFSData deployed to: 0x7aE4Be62de2c49Cad05EdA20eb7716f83290fFE8
+ComprehensivePatientData deployed to: 0x5C8338CB569C5E79A9C91924Ce16A5039bc78f30

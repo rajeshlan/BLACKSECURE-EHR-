@@ -94,3 +94,22 @@ Conclusion
 This project is an ongoing effort to create a secure, decentralized, and user-friendly EHR system on the Ethereum blockchain. We have made significant progress in developing the smart contracts, frontend, and backend interaction scripts, and are currently focused on resolving the remaining issues and refining the system for deployment.
 
 We welcome contributions and feedback from the community as we continue to develop and improve BlackSecure.
+
+
+
+
+STEPS TO EXECUTE MY PROGRAM AND SEE ON LOCALHOT
+
+OPEN THE ROOT PROJECT ON VS CODE THEN FOLLOW THE STEPS ON TERNINAL
+
+npx hardhat compile
+npx hardhat run scripts/deploy.js --network private
+npx hardhat test
+node scripts/storedata.js
+node scripts/retrievedata.js
+node scripts/interact.mjs
+node scripts/storeinipfs.cjs
+node scripts/retrievefromipfs.js
+node scripts/storeipfshash.cjs
+npm start
+

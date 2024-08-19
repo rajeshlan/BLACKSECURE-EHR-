@@ -5,7 +5,8 @@ module.exports = {
     fallback: {
       "fs": false, // fs is not needed in the browser environment
       "path": require.resolve("path-browserify"),
-      "os": require.resolve("os-browserify/browser")
+      "os": require.resolve("os-browserify/browser"),
+      "crypto": require.resolve("crypto-browserify") // Added from the first snippet
     }
   },
   module: {

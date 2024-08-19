@@ -1,8 +1,6 @@
-// src/components/Footer.js
-
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import logo from '../assets/logo.png';
+import logo from '../logo.svg';
 
 const Footer = () => {
   return (
@@ -17,7 +15,7 @@ const Footer = () => {
             <ul className="space-y-1">
               <li>
                 <Link 
-                  to="/" 
+                  to="/register" 
                   className="cursor-pointer text-black dark:text-gray-200 hover:text-white block rounded-md hover:underline underline-offset-2"
                 >
                   Register

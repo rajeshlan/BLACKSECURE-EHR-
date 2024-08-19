@@ -1,8 +1,6 @@
-// src/components/Navbar.js
-
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../assets/logo.png'; // Correct path to logo
+import logo from '../logo.svg';
 
 const Navbar = () => {
   return (
@@ -11,24 +9,43 @@ const Navbar = () => {
         <div className="flex space-x-10">
           <Link to="/" className="flex gap-2 text-2xl font-bold items-center sm:flex">
             <img className='w-20' alt='logo' src={logo} />
+            MED-SYNC
           </Link>
           <ul className="hidden items-center md:flex text-lg tracking-widest">
             <li>
               <NavLink 
                 style={({ isActive }) => ({ color: isActive ? 'cyan' : 'white' })}
                 className='mx-1 px-2 font-semibold' 
-                to='/'
+                to='/doctor-dashboard'
               >
-                Register
+                Doctor Dashboard
               </NavLink>
             </li>
             <li>
               <NavLink 
                 style={({ isActive }) => ({ color: isActive ? 'cyan' : 'white' })}
                 className='mx-1 px-2 font-semibold' 
-                to='/view-records'
+                to='/patient-dashboard'
               >
-                View Records
+                Patient Dashboard
+              </NavLink>
+            </li>
+            <li>
+              <NavLink 
+                style={({ isActive }) => ({ color: isActive ? 'cyan' : 'white' })}
+                className='mx-1 px-2 font-semibold' 
+                to='/transfer-patient'
+              >
+                Transfer Patient
+              </NavLink>
+            </li>
+            <li>
+              <NavLink 
+                style={({ isActive }) => ({ color: isActive ? 'cyan' : 'white' })}
+                className='mx-1 px-2 font-semibold' 
+                to='/insurance'
+              >
+                Insurance
               </NavLink>
             </li>
           </ul>

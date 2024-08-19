@@ -4,18 +4,18 @@ const dotenv = require('dotenv');
 // Load .env file
 dotenv.config();
 
-// Deployed addresses from console output
+// Deployed addresses from console output (These should be updated dynamically if needed)
 const deployedAddresses = {
-  UserData: "0x4Ac091B77aFEdFaCFbC7fc9414731050878002fA",
-  IPFSData: "0x7aE4Be62de2c49Cad05EdA20eb7716f83290fFE8",
-  ComprehensivePatientData: "0x5C8338CB569C5E79A9C91924Ce16A5039bc78f30"
+  UserData: process.env.USER_DATA_ADDRESS,
+  IPFSData: process.env.IPFS_DATA_ADDRESS,
+  ComprehensivePatientData: process.env.CONTRACT_ADDRESS
 };
 
 // Addresses from .env file
 const envAddresses = {
-  UserData: process.env.USERDATA_CONTRACT_ADDRESS,
-  IPFSData: process.env.IPFSDATA_CONTRACT_ADDRESS,
-  ComprehensivePatientData: process.env.COMPREHENSIVE_PATIENT_DATA_CONTRACT_ADDRESS
+  UserData: process.env.USER_DATA_ADDRESS,
+  IPFSData: process.env.IPFS_DATA_ADDRESS,
+  ComprehensivePatientData: process.env.CONTRACT_ADDRESS
 };
 
 // Compare addresses

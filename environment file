@@ -1,3 +1,7 @@
+MAKE SURE TO SAVE THIS FILE AS .env
+
+
+
 # Ethereum Private Key of METAMASK for deploying and interacting with contracts
 PRIVATE_KEY="your metamask private key"
 

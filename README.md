@@ -102,14 +102,14 @@ STEPS TO EXECUTE MY PROGRAM AND SEE ON LOCALHOT
 
 OPEN THE ROOT PROJECT ON VS CODE THEN FOLLOW THE STEPS ON TERNINAL
 
-npx hardhat compile
-npx hardhat run scripts/deploy.js --network private
-npx hardhat test
-node scripts/storedata.js
-node scripts/retrievedata.js
-node scripts/interact.mjs
-node scripts/storeinipfs.cjs
-node scripts/retrievefromipfs.js
-node scripts/storeipfshash.cjs
-npm start
+STEP 1  : npx hardhat compile
+STEP 2  :npx hardhat run scripts/deploy.js --network private
+STEP 3  :npx hardhat test
+STEP 4  :node scripts/storedata.js
+STEP 5  :node scripts/retrievedata.js
+STEP 6  :node scripts/interact.mjs
+STEP 7  :node scripts/storeinipfs.cjs
+STEP 8  :node scripts/retrievefromipfs.js
+STEP 9  :node scripts/storeipfshash.cjs
+STEP 10 :npm start
 

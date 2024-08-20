@@ -72,8 +72,8 @@ async function storeData(patientAddress, ipfsHash) {
 }
 
 async function main() {
-    const patientAddress = '0xBe2f6891E7a77b137345EC8532128b478DEC0B4b';
-    const doctorAddress = '0xAE3D76333fc94689773f50fe1E27213D899C060c'; // Example doctor address
+    const patientAddress = 'your patient wallet address';
+    const doctorAddress = 'your doctor wallet address'; // Example doctor address
     const ipfsHash = 'QmExampleHash123'; // Example IPFS hash
 
     console.log('Starting script execution...');
